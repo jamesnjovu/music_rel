@@ -1,0 +1,11 @@
+{application,number_f,
+             [{applications,[kernel,stdlib,elixir,logger,number]},
+              {description,"number_f"},
+              {modules,['Elixir.NumberF','Elixir.NumberF.Application',
+                        'Elixir.NumberF.Currency','Elixir.NumberF.Helper',
+                        'Elixir.NumberF.Memory','Elixir.NumberF.NumberToWord',
+                        'Elixir.NumberF.NumbersToWords',
+                        'Elixir.NumberF.Randomizer']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.NumberF.Application',[]}}]}.
